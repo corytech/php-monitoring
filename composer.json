@@ -1,0 +1,27 @@
+{
+  "name": "corytech/php-monitoring",
+  "type": "library",
+  "description": "Monitoring library",
+  "keywords": ["monitoring","statsd"],
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-bcmath": "*",
+    "slickdeals/statsd": "^3.2"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.49",
+    "phpunit/phpunit": "^10.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Corytech\\Monitoring\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Corytech\\Monitoring\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev"
+}
