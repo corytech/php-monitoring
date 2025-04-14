@@ -18,7 +18,7 @@ class StatsdMonitoring implements MonitoringInterface
         #[Autowire(env: 'int:STATSD_PORT')]
         int $statsdPort,
         #[Autowire(env: 'STATSD_NAMESPACE')]
-        string $statsdNamespace
+        string $statsdNamespace,
     ) {
         $connection = new UdpSocket($statsdHost, $statsdPort);
         $this->client = new Client($connection, $statsdNamespace);
