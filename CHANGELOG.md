@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.2](https://github.com/corytech/php-monitoring/compare/v1.0.1...v1.0.2) (2026-06-03)
+
+
+### 🧰 Maintenance
+
+* **CPD-7985:** fix ci ([dbb9d97](https://github.com/corytech/php-monitoring/commit/dbb9d97a678eb56aee42a0cc095f7100dcde0eb6))
+* **CPD-7985:** Migrate GitHub Actions to Node 24 runtime ([f6340d0](https://github.com/corytech/php-monitoring/commit/f6340d0df9dc4b34e806c66a4c8bebf599f33d5c))
+* **CPD-7985:** Migrate GitHub Actions to Node 24 runtime ([55194a0](https://github.com/corytech/php-monitoring/commit/55194a0af4a7db1a6dfd8f95f52f15aea794d7a9))
+
 ## [1.0.1](https://github.com/corytech/php-monitoring/compare/v1.0.0...v1.0.1) (2025-04-14)
 
 
