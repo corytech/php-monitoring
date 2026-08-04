@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.3](https://github.com/corytech/php-monitoring/compare/v1.0.2...v1.0.3) (2026-08-04)
+
+
+### 🧰 Maintenance
+
+* **CPD-8393:** Pin external actions with SHA ([5624769](https://github.com/corytech/php-monitoring/commit/5624769ef8eb973888221ed92e6af4ef9838aa81))
+* **CPD-8393:** Pin external actions with SHA ([526078d](https://github.com/corytech/php-monitoring/commit/526078dab60f926aa6552da673abd2ef76d3b202))
+
 ## [1.0.2](https://github.com/corytech/php-monitoring/compare/v1.0.1...v1.0.2) (2026-06-03)
 
 
